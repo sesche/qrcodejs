@@ -39,6 +39,9 @@ $("#text").
 		if (e.keyCode == 13) {
 			makeCode();
 		}
+	}).
+	on("focus", function(e) {
+		this.select();
 	});
 </script>
 </body>
